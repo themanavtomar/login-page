@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+    <div style="background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);">
+        <h1>Registration Form</h1>
+        <div class="details">
+            <form action="process_registration.php" method="post">
+                <div id="aa"><label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="First Name"></div>
+                <div id="bb"><label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name"name="last_name" placeholder="Last Name"></div>
+                <div id="cc"><label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email"></div>
+                <div id="dd"><label for="password">Password:</label>
+                    <input type="password" name="password" placeholder="Password"></div>
+                <div id="ee"><label for="password">Confirm Password:</label>
+                    <input type="password" name="password" placeholder="Confirm Password"></div>
+                <div id="ff"><label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required></div>
+                <div id="gg"><label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label></div>
+                <div id="hh"><label>Hobbies:</label>
+                    <input type="checkbox" id="game" name="Hobbies" value="Game">
+                    <label for="game">Game</label>
+                    <input type="checkbox" id="reading" name="Hobbies" value="Reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="traveling" name="Hobbies" value="Traveling">
+                    <label for="traveling">Traveling</label><br><br>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                    <option value="India">India</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Singapur">Singapur</option>
+                    </select><br><br>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
